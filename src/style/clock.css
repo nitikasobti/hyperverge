@@ -1,0 +1,87 @@
+/* Container for the clock */
+.clock-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    width: 150px;            /* Adjust width as needed */
+    height: 150px;           /* Adjust height as needed */
+    background-color: black; /* Black background for the box */
+    border-radius: 10px;     /* Optional: rounded corners */
+    padding: 10px;           /* Padding around the clock */
+    margin: 20px auto;       /* Center on the page with margin */
+  }
+  
+  /* Style for the clock itself */
+  .clock {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 5px solid #fff;  /* White border for the clock */
+    border-radius: 50%;      /* Circular clock */
+    background: black;       /* Black background for the clock */
+  }
+  
+  /* Hands of the clock */
+  .hand {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: white;      /* White hands for visibility */
+    top: 50%;
+    left: 50%;
+    transform-origin: left center; /* Rotate from the center-left side */
+    transform: rotate(90deg); /* Adjust for correct starting point */
+  }
+  
+  .hour {
+    width: 35%;             /* Shorter length for the hour hand */
+    height: 4px;            /* Adjusted height for visibility */
+    background: white;
+  }
+  
+  .minute {
+    width: 45%;             /* Longer length for the minute hand */
+    height: 3px;
+    background: white;
+  }
+  
+  .second {
+    width: 50%;             /* Full length for the second hand */
+    height: 2px;
+    background: red;        /* Red second hand */
+  }
+  
+  /* Numbers on the clock */
+  .number {
+    position: absolute;
+    color: white;            /* White numbers for visibility */
+    font-size: 16px;         /* Adjust size as needed */
+    font-weight: bold;       /* Bold for better readability */
+  }
+  
+  .number-12 {
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .number-3 {
+    top: 50%;
+    right: 10%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  .number-6 {
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%) translateY(50%);
+  }
+  
+  .number-9 {
+    top: 50%;
+    left: 10%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  /* Additional numbers can be added similarly */
+  

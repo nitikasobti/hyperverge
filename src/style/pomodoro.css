@@ -1,0 +1,66 @@
+.pomodoro-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #282c34; /* Dark background for widget */
+    color: white;              /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;              /* Width to accommodate progress bar */
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  }
+  
+  .timer {
+    font-size: 48px;
+    margin: 20px 0;
+  }
+  
+  .progress-container {
+    position: relative;
+    width: 120px; /* Size of the pie chart */
+    height: 120px; /* Size of the pie chart */
+    margin: 20px 0;
+  }
+  
+  .progress-circle {
+    transform: rotate(-90deg); /* Rotate to start from the top */
+  }
+  
+  .progress-circle-background {
+    fill: none;
+    stroke: #444; /* Background color of the pie chart */
+  }
+  
+  .progress-circle-bar {
+    fill: none;
+    stroke: #61dafb; /* Color for progress bar */
+    transition: stroke-dashoffset 0.5s ease;
+    stroke-linecap: round; /* Rounded end for the stroke */
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+  }
+  
+  button:hover {
+    background-color: #4fa3b7;
+    transform: scale(1.05); /* Slightly enlarge button on hover */
+  }
+  
+  button:active {
+    transform: scale(0.95); /* Slightly shrink button when clicked */
+  }
+  

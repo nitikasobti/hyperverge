@@ -1,0 +1,17 @@
+/* src/style/poll.css */
+.poll-widget {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    margin-top: 20px;
+  }
+  
+  .poll-question {
+    margin-bottom: 20px;
+  }
+  
+  .poll-option {
+    margin-top: 10px;
+  }
+  
