@@ -1,17 +1,28 @@
-/* src/style/poll.css */
 .poll-widget {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    background-color: #f9f9f9;
-    margin-top: 20px;
-  }
-  
-  .poll-question {
-    margin-bottom: 20px;
-  }
-  
-  .poll-option {
-    margin-top: 10px;
-  }
-  
+  padding: 20px;
+  border: none;
+  border-radius: 15px;
+  background: #f0f0f0;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.poll-widget:hover {
+  transform: scale(1.05);
+}
+
+.poll-question {
+  margin-bottom: 20px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.poll-option {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.poll-option input {
+  margin-right: 10px;
+}
