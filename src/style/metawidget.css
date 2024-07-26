@@ -1,0 +1,27 @@
+.meta-widget {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 20px;
+  }
+  
+  .meta-widget ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .meta-widget li {
+    margin-bottom: 10px;
+  }
+  
+  .meta-widget .widgets {
+    margin-top: 20px;
+  }
+  
+  .widget {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+  

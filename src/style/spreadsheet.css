@@ -1,0 +1,29 @@
+/* Add this to your CSS file or in a <style> tag in your component */
+.spreadsheet-widget {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .spreadsheet-widget table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .spreadsheet-widget th,
+  .spreadsheet-widget td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .spreadsheet-widget th {
+    background-color: #f4f4f4;
+  }
+  
+  .spreadsheet-widget tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  

@@ -1,0 +1,68 @@
+/* BookQuoteWidget.css */
+.book-quote-widget {
+    width: 100%;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .book-quote-widget h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  .book-quote-widget h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #555;
+  }
+  
+  .book-quote-widget blockquote {
+    margin: 20px 0;
+    font-size: 1.1em;
+    font-style: italic;
+    color: #333;
+  }
+  
+  .book-quote-widget p {
+    margin: 10px 0;
+    font-size: 1em;
+    color: #666;
+  }
+  
+  .book-quote-widget .links {
+    margin-top: 20px;
+  }
+  
+  .book-quote-widget .amazon-button,
+  .book-quote-widget .goodreads-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-quote-widget .amazon-button {
+    background-color: #ff9900;
+    color: white;
+  }
+  
+  .book-quote-widget .amazon-button:hover {
+    background-color: #e68a00;
+  }
+  
+  .book-quote-widget .goodreads-button {
+    background-color: #372213;
+    color: white;
+  }
+  
+  .book-quote-widget .goodreads-button:hover {
+    background-color: #29170d;
+  }
+  

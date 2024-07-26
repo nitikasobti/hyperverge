@@ -1,0 +1,105 @@
+.daily-growth-checklist {
+    width: 100%;
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
+  
+  .daily-growth-checklist h2 {
+    margin: 0 0 20px;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  
+  .daily-growth-checklist ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .daily-growth-checklist ul li {
+    margin-bottom: 10px;
+  }
+  
+  .daily-growth-checklist ul li label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .daily-growth-checklist ul li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .daily-growth-checklist ul li.completed label {
+    text-decoration: line-through;
+    color: grey;
+  }
+  
+  .add-task {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 10px;
+  }
+  
+  .add-task input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .add-task-button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 50%; /* Make the button round */
+    background-color: #007bff;
+    color: white;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for better visibility */
+  }
+  
+  .add-task-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .daily-growth-checklist button {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .daily-growth-checklist button:hover {
+    background-color: #0056b3;
+  }
+  
+  .response-message {
+    margin-top: 20px;
+    font-size: 1em;
+    color: green;
+    text-align: center;
+  }
+  
+  .response-message::before {
+    content: '✔ ';
+    font-size: 1.5em;
+  }
+  
